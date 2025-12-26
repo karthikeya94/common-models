@@ -1,0 +1,15 @@
+package com.riskplatform.common.enums;
+
+public enum ActionType {
+    AUTO_BLOCK,
+    MANUAL_REVIEW,
+    ALLOW,
+    MONITOR,
+    OTP_VERIFICATION,
+    BLOCK_CARD_AND_REFUND,
+    FORCE_APPROVE,
+    FORCE_REJECT,
+    REQUEST_ADDITIONAL_DOCS,
+    REQUEST_KYC_RENEWAL,
+    FLAG_FOR_REPORTING
+}
