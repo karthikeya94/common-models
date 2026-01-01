@@ -28,6 +28,9 @@ public class FraudPattern {
     @Field("description")
     private String description;
 
+    @Field("type")
+    private String type;
+
     @Field("frequency")
     private String frequency;
 
@@ -39,6 +42,27 @@ public class FraudPattern {
 
     @Field("trend")
     private String trend;
+
+    @Field("firstDetected")
+    private Instant firstDetected;
+
+    @Field("lastDetected")
+    private Instant lastDetected;
+
+    @Field("severity")
+    private String severity;
+
+    @Field("riskScore")
+    private Integer riskScore;
+
+    @Field("falsePositiveRate")
+    private Double falsePositiveRate;
+
+    @Field("detectionTypes")
+    private java.util.List<String> detectionTypes;
+
+    @Field("mitigationActions")
+    private java.util.List<String> mitigationActions;
 
     @Field("createdAt")
     private Instant createdAt;

@@ -28,6 +28,9 @@ public class TransactionEvent {
     private String device;
     private Location location;
     private EventType eventType;
+    private String eventTypeString;
     private Instant eventTimestamp;
     private String correlationId;
+    private String rejectionReason;
+    private RejectionDetails rejectionDetails;
 }

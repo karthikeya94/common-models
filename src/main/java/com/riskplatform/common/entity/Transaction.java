@@ -11,6 +11,7 @@ import org.springframework.data.annotation.Version;
 import org.springframework.data.mongodb.core.mapping.Document;
 import org.springframework.data.mongodb.core.mapping.Field;
 
+import java.math.BigDecimal;
 import java.time.Instant;
 import java.util.List;
 
@@ -32,7 +33,7 @@ public class Transaction {
     private String customerId;
 
     @Field("amount")
-    private Double amount;
+    private BigDecimal amount;
 
     @Field("currency")
     private String currency;
@@ -50,13 +51,19 @@ public class Transaction {
     private String channel;
 
     @Field("device")
-    private String device;
+    private com.riskplatform.common.model.DeviceInfo device;
 
     @Field("location")
     private Location location;
 
     @Field("status")
     private String status;
+
+    @Field("beneficiary")
+    private com.riskplatform.common.model.Beneficiary beneficiary;
+
+    @Field("destinationAccount")
+    private String destinationAccount;
 
     @Field("validationDetails")
     private ValidationDetails validationDetails;

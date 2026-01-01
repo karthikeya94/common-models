@@ -13,4 +13,6 @@ public class Location {
     private String country;
     private String city;
     private String ip;
+    private Double latitude;
+    private Double longitude;
 }

@@ -62,6 +62,9 @@ public class Customer {
     @Field("allowedCountries")
     private List<String> allowedCountries;
 
+    @Field("entityType")
+    private String entityType;
+
     @Field("createdAt")
     private Instant createdAt;
 

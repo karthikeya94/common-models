@@ -20,6 +20,7 @@ import java.util.List;
 public class RiskAssessment {
     private String transactionId;
     private Integer riskScore;
+    private String customerId;
     private RiskLevel riskLevel;
     private Decision decision;
     private DecisionDetails decisionDetails;

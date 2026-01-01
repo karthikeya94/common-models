@@ -40,7 +40,7 @@ public class FraudAlert {
     private List<DetectionResult> detectionTypes;
 
     @Field("fraudFlags")
-    private List<String> fraudFlags;
+    private List<FraudFlag> fraudFlags;
 
     @Field("raisedAt")
     private Instant raisedAt;

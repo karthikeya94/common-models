@@ -7,5 +7,6 @@ public enum AlertStatus {
     REVIEW_PENDING,
     RESOLVED,
     PENDING_ACTION,
+    DETECTED,
     NOT_DETECTED
 }
