@@ -51,7 +51,7 @@ public class Transaction {
     private String channel;
 
     @Field("device")
-    private com.riskplatform.common.model.DeviceInfo device;
+    private String device;
 
     @Field("location")
     private Location location;
